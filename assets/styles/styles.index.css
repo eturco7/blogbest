@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(122, 119, 119);
 }
 
 h1 {
@@ -17,8 +17,8 @@ header {
     justify-content: space-around;
     margin-top: 10px;
     height: 150px;
-    background-color:rgb(25, 183, 70);
-    color: rgb(255, 255, 255);
+    background-color:rgb(112, 119, 119);
+    color: rgb(112, 119, 119);
     align-items: center;
 
 
@@ -41,6 +41,30 @@ header {
 
 #links a:hover {
     border-bottom: 3px solid #ececec;
-    color: chartreuse;
+    color: rgb(255, 255, 255);
     transform:scale(1.1);
+}
+
+#carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+
+#carousel img {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+#main-new {
+    width: 70%;
+}
+
+#aside {
+    width: 28%;
 }
