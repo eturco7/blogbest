@@ -12,7 +12,27 @@ body {
 h1 {
     text-align: center;
 }
- header {
+header {
     display: flex;
     justify-content: space-around;
- }
+    margin-top: 10px;
+    height: 150px;
+    background-color:aqua;
+    color: blue;
+    align-items: center;
+
+
+}
+
+#logo-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
+}
+
+#links a {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 1.2rem;
+
+}
